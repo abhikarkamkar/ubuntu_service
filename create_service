@@ -1,0 +1,12 @@
+ubuntu version = Ubuntu 18.04.3 LTS
+path of service file = /lib/systemd/system/mytemp.service
+
+sudo systemctl daemon-reload
+sudo systemctl enable mytemp.service
+sudo systemctl start mytemp.service
+
+sudo systemctl status mytemp.service
+
+sudo systemctl stop mytemp.service          #To stop running service 
+sudo systemctl start mytemp.service         #To start running service 
+sudo systemctl restart mytemp.service       #To restart running service 
